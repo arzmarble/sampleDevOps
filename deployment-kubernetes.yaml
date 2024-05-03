@@ -13,7 +13,5 @@ spec:
         app: my-app
     spec:
       containers:
-      - name: my-container
-        image: armthanadol/sampledevops
-        ports:
-        - containerPort: 8080
+        - name: my-container
+          image: armthanadol/sampledevops:latest
